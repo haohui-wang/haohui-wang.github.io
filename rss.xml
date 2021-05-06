@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
+
+
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>whh伍叁零</title>
+        <link>https://haohui-wang.github.io/</link>
+        <description>whh530的个人网站</description>
+        <generator>Hugo 0.83.1 https://gohugo.io/</generator>
+        
+            <language>zh-CN</language>
+        
+        
+            <managingEditor>wang.haohui@outlook.com (whh530)</managingEditor>
+        
+        
+            <webMaster>wang.haohui@outlook.com (whh530)</webMaster>
+        
+        
+            <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+        
+        <lastBuildDate>Thu, 06 May 2021 15:52:32 &#43;0800</lastBuildDate>
+        
+            <atom:link rel="self" type="application/rss&#43;xml" href="https://haohui-wang.github.io/rss.xml" />
+        
+        
+            <item>
+                <title>新篇</title>
+                <link>https://haohui-wang.github.io/posts/2021-05-06/</link>
+                <guid isPermaLink="true">https://haohui-wang.github.io/posts/2021-05-06/</guid>
+                <pubDate>Thu, 06 May 2021 00:00:00 &#43;0000</pubDate>
+                
+                    <author>wang.haohui@outlook.com (whh530)</author>
+                
+                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
+                
+                    <description>&lt;p&gt;新 Blog 放这了, 不清楚会不会用, 敬请期待.&lt;/p&gt;
+</description>
+                
+                
+                
+                
+                
+                    
+                        
+                    
+                        
+                    
+                
+            </item>
+        
+    </channel>
+</rss>

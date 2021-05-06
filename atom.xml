@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">whh伍叁零</title>
+    <subtitle type="html">whh530的个人网站</subtitle>
+    <updated>2021-05-06T15:52:32&#43;08:00</updated>
+    <id>https://haohui-wang.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://haohui-wang.github.io/" />
+    <link rel="self" type="application/atom&#43;xml" href="https://haohui-wang.github.io/atom.xml" />
+    <author>
+            <name>whh530</name>
+            <uri>https://haohui-wang.github.io/</uri>
+            
+                <email>wang.haohui@outlook.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.83.1">Hugo</generator>
+        <entry>
+            <title type="text">新篇</title>
+            <link rel="alternate" type="text/html" href="https://haohui-wang.github.io/posts/2021-05-06/" />
+            <id>https://haohui-wang.github.io/posts/2021-05-06/</id>
+            <updated>2021-05-06T15:43:56&#43;08:00</updated>
+            <published>2021-05-06T00:00:00&#43;00:00</published>
+            <author>
+                    <name>whh530</name>
+                    <uri>https://haohui-wang.github.io/</uri>
+                    <email>wang.haohui@outlook.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html">新 Blog 放这了, 不清楚会不会用, 敬请期待.</summary>
+            
+                <content type="html">&lt;p&gt;新 Blog 放这了, 不清楚会不会用, 敬请期待.&lt;/p&gt;
+</content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
