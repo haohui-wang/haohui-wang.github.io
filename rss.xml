@@ -23,40 +23,10 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Mon, 10 May 2021 20:54:59 &#43;0800</lastBuildDate>
+        <lastBuildDate>Mon, 10 May 2021 21:37:25 &#43;0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss&#43;xml" href="https://haohui-wang.github.io/rss.xml" />
         
-        
-            <item>
-                <title>爱与喜欢</title>
-                <link>https://haohui-wang.github.io/posts/%E7%88%B1%E4%B8%8E%E5%96%9C%E6%AC%A2/</link>
-                <guid isPermaLink="true">https://haohui-wang.github.io/posts/%E7%88%B1%E4%B8%8E%E5%96%9C%E6%AC%A2/</guid>
-                <pubDate>Mon, 10 May 2021 00:00:00 &#43;0000</pubDate>
-                
-                    <author>wang.haohui@outlook.com (whh530)</author>
-                
-                <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
-                
-                    <description>&lt;h1 id=&#34;1&#34;&gt;1&lt;/h1&gt;
-&lt;p&gt;或许时间过了长久, 我们已忘了没有彼此的日子是怎样的, 从而也无从对比&lt;/p&gt;
-&lt;p&gt;但是我的感觉永远是: 恋如雨止&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Ref:rain (instrumental Version) - 吉俣良&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-                
-                
-                
-                
-                
-                    
-                        
-                    
-                        
-                    
-                
-            </item>
         
             <item>
                 <title>编译原理: 第七章</title>
@@ -68,8 +38,7 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&#34;运行时刻环境&#34;&gt;运行时刻环境&lt;/h1&gt;
+                    <description>&lt;h1 id=&#34;运行时刻环境&#34;&gt;运行时刻环境&lt;/h1&gt;
 &lt;h2 id=&#34;空间的栈式分配&#34;&gt;空间的栈式分配&lt;/h2&gt;
 &lt;h3 id=&#34;活动树&#34;&gt;活动树&lt;/h3&gt;
 &lt;h3 id=&#34;活动记录&#34;&gt;活动记录&lt;/h3&gt;
@@ -102,8 +71,7 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description>&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&#34;中间代码生成&#34;&gt;中间代码生成&lt;/h1&gt;
+                    <description>&lt;h1 id=&#34;中间代码生成&#34;&gt;中间代码生成&lt;/h1&gt;
 &lt;h2 id=&#34;中间代码表示&#34;&gt;中间代码表示&lt;/h2&gt;
 &lt;h3 id=&#34;表达式的有向无环图-dag&#34;&gt;表达式的有向无环图 DAG&lt;/h3&gt;
 &lt;p&gt;和表达式的语法树类似, 一个 DAG 的叶子对应原子运算分量, 内部结点对应运算符, 与语法树不同, 如果 DAG 中的一个结点 $N$ 表示一个公共子表达式, 则 $N$ 可能有许多父结点.&lt;/p&gt;
@@ -128,7 +96,7 @@
 &lt;li&gt;参数传递 $\text{param }x$&lt;/li&gt;
 &lt;li&gt;过程调用 $\text{call } p,n$&lt;/li&gt;
 &lt;li&gt;带下标的复制 $x=y[i]$ 和 $x[i]=y$&lt;/li&gt;
-&lt;li&gt;地址及指针赋值 $x=&amp;amp;y$, $x=*y$, $*x=y$&lt;/li&gt;
+&lt;li&gt;地址及指针赋值 $x=\&amp;amp;y,x=*y,*x=y$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h4 id=&#34;四元式表示&#34;&gt;四元式表示&lt;/h4&gt;
 &lt;p&gt;一个四元式包含四个字段 $op,arg_1,arg_2,result$, 其一般规则有如下特例:&lt;/p&gt;
@@ -148,12 +116,10 @@
 &lt;li&gt;SSA中所有赋值均支队具有不同名字的变量&lt;/li&gt;
 &lt;li&gt;使用一种被称为 $\varphi$ 函数的表示规则将 $x$ 的两处定值合并&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;$$
-\begin{array}{l}
-\text{if ( flag ) }x_1=-1;\text{ else }x_2=1;\&lt;br&gt;
-x_3=\varphi(x_1,x_2)
-\end{array}
-$$&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;$\text{if ( flag ) }x_1=-1;\text{ else }x_2=1;$&lt;/p&gt;
+&lt;p&gt;$x_3=\varphi(x_1,x_2)$&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;h2 id=&#34;类型检查&#34;&gt;类型检查&lt;/h2&gt;
 &lt;h3 id=&#34;类型表达式&#34;&gt;类型表达式&lt;/h3&gt;
 &lt;p&gt;类型具有结构, 用类型表达式来表示, 它可以是基本类型, 也可以是通过把类型构造算子作用于类型表达式得到的, 定义如下:&lt;/p&gt;
@@ -162,14 +128,20 @@ $$&lt;/p&gt;
 &lt;li&gt;类名&lt;/li&gt;
 &lt;li&gt;类型构造算子 $array$ 作用于一个数字和一个类型表达式
 &lt;ul&gt;
-&lt;li&gt;如 $int[2][3]$ 的类型表达式 $array(2,array(3,integer))$&lt;/li&gt;
+&lt;li&gt;如 $int[2][3]$ 的类型表达式
+$$
+array(2,array(3,integer))
+$$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;类型构造算子 $record$ 作用于字段名和相应的类型&lt;/li&gt;
 &lt;li&gt;类型构造算子 $\to$ 可以构造函数类型的类型表达式, 把“从类型 $s$ 到类型 $t$ 的函数”写成 $s\to t$&lt;/li&gt;
-&lt;li&gt;若 $s,t$ 是类型表达式, 则笛卡尔积 $s\times t$ 是类型表达式\
+&lt;li&gt;若 $s,t$ 是类型表达式, 则笛卡尔积 $s\times t$ 是类型表达式
 &lt;ul&gt;
-&lt;li&gt;如 $struct { int\ a[10]; float\ f; } st;$ 的类型表达式 $record((a\times array(0..9, int)) \times (f \times real))$&lt;/li&gt;
+&lt;li&gt;如 $struct \{ int\ a[10]; float\ f; \} st;$ 的类型表达式
+$$
+record((a\times array(0..9, int)) \times (f \times real))
+$$&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;取值为类型表达式的变量&lt;/li&gt;
@@ -186,7 +158,7 @@ $$&lt;/p&gt;
 &lt;p&gt;处理基本类型, 数组类型和记录类型的声明的文法:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;$D\to T\ id; D|\varepsilon$&lt;/li&gt;
-&lt;li&gt;$T\to B C | record&lt;code&gt;\{&#39;D&lt;/code&gt;}&#39;$&lt;/li&gt;
+&lt;li&gt;$T\to B C | record\{D\}$&lt;/li&gt;
 &lt;li&gt;$B\to int | float$&lt;/li&gt;
 &lt;li&gt;$C\to\varepsilon|[num]C$&lt;/li&gt;
 &lt;/ul&gt;
@@ -224,20 +196,20 @@ $$&lt;/p&gt;
                     <description>&lt;h2 id=&#34;to-read&#34;&gt;to read&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 站在两个世界的边缘 - 程浩&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 理解媒介 - 麦克卢汉&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 理解媒介 - 马歇尔·麦克卢汉&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 坏世界研究 - 赵汀阳&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;to-travel&#34;&gt;to travel:&lt;/h2&gt;
+&lt;h2 id=&#34;to-travel&#34;&gt;to travel&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 山阴路&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 石臼湖&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;to watch:&lt;/p&gt;
+&lt;h2 id=&#34;to-watch&#34;&gt;to watch&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 敦刻尔克 - 诺兰&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 敦刻尔克 - 克里斯托弗·诺兰&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 无依之地 - 赵婷&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 地久天长 - 王小帅&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 小森林&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 地久天长&lt;/li&gt;
 &lt;/ul&gt;
 </description>
                 
